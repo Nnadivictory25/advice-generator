@@ -13,16 +13,14 @@ module.exports = {
         xl: '1440px',
       },
       colors: {
-        'light-red': 'hsl(0, 100%, 67%)',
-        'orange-yellow': 'hsl(39, 100%, 56%)',
-        'green-teal': 'hsl(166, 100%, 37%)',
-        'co-blue': 'hsl(234, 85%, 45%)',
-        'pale-blue': 'hsl(221, 100%, 96%)',
-        'light-lavender': 'hsl(241, 100%, 89%)',
-        'dark-g-blue': 'hsl(224, 30%, 27%)'
+        'lightCyan': 'hsl(193, 38%, 86%)',
+        'neonGreen': 'hsl(150, 100%, 66%)',
+        'greyBlue': 'hsl(217, 19%, 38%)',
+        'darkGBlue': 'hsl(217, 19%, 24%)',
+        'darkBlue': 'hsl(218, 23%, 16%)'
       },
       fontFamily: {
-        sans: ['Hanken Grotesk', 'sans-serif'],
+        sans: ['Manrope', 'sans-serif'],
       }
     },
   },

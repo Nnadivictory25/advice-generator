@@ -1,0 +1,24 @@
+#divider {
+    position: relative;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        height: .05px;
+        background-color: hsl(193, 38%, 86%);
+        width: 45%;
+    }
+
+    &::before {
+        top: 50%;
+        left: 0;
+    }
+
+    &::after {
+        top: 50%;
+        right: 0;
+    }
+
+}

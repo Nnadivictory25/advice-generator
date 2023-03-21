@@ -1,9 +1,21 @@
 import { useState } from 'react'
+import Advice from './components/Advice';
+import Card from './components/Card'
+
+export interface AdviceQuery {
+  id?: number;
+  advice?: string;
+}
+
+
 
 function App() {
+  const [adviceQuery, setAdviceQuery] = useState({})
 
   return (
-    <h1 className="text-center">Hello</h1>
+    <Card>
+      <Advice  />
+    </Card>
   )
 }
 
