@@ -22,3 +22,16 @@
     }
 
 }
+
+#genBtn {
+    transition: all .2s ease-in-out;
+    left: 43.2%;
+    bottom: -3rem;
+    transform: translate(0%, -50%);
+
+    &:hover {
+        -webkit-box-shadow: 2px 2px 27px 6px rgba(82,255,168,0.88);
+        -moz-box-shadow: 2px 2px 27px 6px rgba(82,255,168,0.88);
+        box-shadow: 2px 2px 27px 6px rgba(82,255,168,0.88);
+    }
+}

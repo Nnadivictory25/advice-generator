@@ -1,17 +1,18 @@
-import { AdviceQuery } from '../App';
-import useAdvice from '../hooks/useAdvice';
 import line from '../assets/pattern-divider-desktop.svg'
+import { AdviceQuery } from '../App';
 
-const Advice = (adviceQuery: AdviceQuery) => {
-	const { data, error } = useAdvice(adviceQuery);
+
+
+
+const Advice = ({id, advice}: AdviceQuery) => {
 
 	return (
 		<>
-			<p className='text-neonGreen text-xs font-extrabold'>ADVICE #{data.id}</p>
-            <p className='text-white text-xl'>"{data.advice}"</p>
+			<p className='text-neonGreen text-xs font-extrabold'>ADVICE #{id}</p>
+            <p className='text-white text-xl'>"{advice}"</p>
             <div id="divider">
             <img src={line} />
-            </div>
+			</div>
 		</>
 	);
 };
